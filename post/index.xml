@@ -6,18 +6,7 @@
         <description>Recent content in Posts on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Feb 2025 14:33:27 +0530</lastBuildDate><atom:link href="https://samad.uno/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Metasploit for SOC Analysts</title>
-        <link>https://samad.uno/p/metasploit-for-soc-analysts/</link>
-        <pubDate>Tue, 11 Feb 2025 14:33:27 +0530</pubDate>
-        
-        <guid>https://samad.uno/p/metasploit-for-soc-analysts/</guid>
-        <description>&lt;img src="https://www.campusciberseguridad.com/media/k2/items/cache/b262fcb3a88d76445a5d5d6ad933cf2d_XL.jpg" alt="Featured image of post Metasploit for SOC Analysts" /&gt;&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security
-&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
-&lt;/h2&gt;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;
-&lt;p&gt;This blog will explore how SOC analysts can use Metasploit effectively to enhance their defensive capabilities.&lt;/p&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 11 Feb 2025 11:56:46 +0530</lastBuildDate><atom:link href="https://samad.uno/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Significance of Bash Scripting</title>
         <link>https://samad.uno/p/significance-of-bash-scripting/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
@@ -28,6 +17,17 @@
 &lt;/h2&gt;&lt;p&gt;In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p&gt;
 &lt;h2 id=&#34;why-bash&#34;&gt;Why Bash?
 &lt;/h2&gt;&lt;p&gt;Bash (Bourne Again Shell) is a powerful scripting language primarily used in Linux environments. Since most security tools, log management systems, and SIEM (Security Information and Event Management) solutions are deployed on Linux-based infrastructures, Bash provides a seamless way to automate security tasks. Here are a few reasons why Bash is indispensable in a SOC:&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Metasploit for SOC Analysts</title>
+        <link>https://samad.uno/p/metasploit-for-soc-analysts/</link>
+        <pubDate>Tue, 11 Feb 2025 02:33:27 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/metasploit-for-soc-analysts/</guid>
+        <description>&lt;img src="https://www.campusciberseguridad.com/media/k2/items/cache/b262fcb3a88d76445a5d5d6ad933cf2d_XL.jpg" alt="Featured image of post Metasploit for SOC Analysts" /&gt;&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security
+&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;
+&lt;p&gt;This blog will explore how SOC analysts can use Metasploit effectively to enhance their defensive capabilities.&lt;/p&gt;</description>
         </item>
         <item>
         <title>The CIA Triad</title>
