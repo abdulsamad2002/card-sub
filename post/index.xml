@@ -19,6 +19,16 @@
 &lt;/h2&gt;&lt;p&gt;Bash (Bourne Again Shell) is a powerful scripting language primarily used in Linux environments. Since most security tools, log management systems, and SIEM (Security Information and Event Management) solutions are deployed on Linux-based infrastructures, Bash provides a seamless way to automate security tasks. Here are a few reasons why Bash is indispensable in a SOC:&lt;/p&gt;</description>
         </item>
         <item>
+        <title>Streamlining Incident Response and Threat Detection</title>
+        <link>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</link>
+        <pubDate>Tue, 11 Feb 2025 07:22:52 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</guid>
+        <description>&lt;img src="https://www.scrut.io/wp-content/uploads/2023/02/How-to-automate-Your-InfoSec-Program-with-Scrut-1.png" alt="Featured image of post Streamlining Incident Response and Threat Detection" /&gt;&lt;h1 id=&#34;soc-automation-streamlining-incident-response-and-threat-detection&#34;&gt;SOC Automation: Streamlining Incident Response and Threat Detection
+&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;With the ever-evolving cyber threat landscape, Security Operations Centers (SOCs) face increasing pressure to detect and respond to incidents swiftly. Manual processes, though effective, are often time-consuming and resource-intensive. SOC automation is transforming the way security teams handle threats by enhancing efficiency, reducing response times, and minimizing human error. In this blog, we will explore how SOC automation is streamlining incident response and threat detection, its benefits, and the key technologies driving this transformation.&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Metasploit for SOC Analysts</title>
         <link>https://samad.uno/p/metasploit-for-soc-analysts/</link>
         <pubDate>Tue, 11 Feb 2025 02:33:27 +0530</pubDate>
