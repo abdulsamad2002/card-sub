@@ -6,7 +6,31 @@
         <description>Recent content in Tags on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Feb 2025 11:56:46 +0530</lastBuildDate><atom:link href="https://samad.uno/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 13 Feb 2025 03:04:27 +0530</lastBuildDate><atom:link href="https://samad.uno/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blueteam</title>
+        <link>https://samad.uno/tags/blueteam/</link>
+        <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
+        
+        <guid>https://samad.uno/tags/blueteam/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Infosec</title>
+        <link>https://samad.uno/tags/infosec/</link>
+        <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
+        
+        <guid>https://samad.uno/tags/infosec/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Soc</title>
+        <link>https://samad.uno/tags/soc/</link>
+        <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
+        
+        <guid>https://samad.uno/tags/soc/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Bash</title>
         <link>https://samad.uno/tags/bash/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
@@ -15,27 +39,11 @@
         <description></description>
         </item>
         <item>
-        <title>Blueteam</title>
-        <link>https://samad.uno/tags/blueteam/</link>
-        <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
-        
-        <guid>https://samad.uno/tags/blueteam/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Scripting</title>
         <link>https://samad.uno/tags/scripting/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
         
         <guid>https://samad.uno/tags/scripting/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Soc</title>
-        <link>https://samad.uno/tags/soc/</link>
-        <pubDate>Tue, 11 Feb 2025 07:22:52 +0530</pubDate>
-        
-        <guid>https://samad.uno/tags/soc/</guid>
         <description></description>
         </item>
         <item>

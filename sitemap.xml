@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://samad.uno/</loc>
-    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
-  </url><url>
-    <loc>https://samad.uno/tags/bash/</loc>
-    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/tags/blueteam/</loc>
-    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/p/dealing-with-ddos-attacks/</loc>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/infosec/</loc>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/post/</loc>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/soc/</loc>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/</loc>
+    <lastmod>2025-02-13T03:04:27+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/bash/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/tags/scripting/</loc>
@@ -19,12 +31,6 @@
   </url><url>
     <loc>https://samad.uno/p/significance-of-bash-scripting/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
-  </url><url>
-    <loc>https://samad.uno/tags/</loc>
-    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
-  </url><url>
-    <loc>https://samad.uno/tags/soc/</loc>
-    <lastmod>2025-02-11T07:22:52+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</loc>
     <lastmod>2025-02-11T07:22:52+05:30</lastmod>
