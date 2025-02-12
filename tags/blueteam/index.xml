@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Blueteam on Abdul Samad</title>
-        <link>https://samad.uno/tags/blueteam/</link>
+        <link>http://localhost:1313/tags/blueteam/</link>
         <description>Recent content in Blueteam on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Feb 2025 11:56:46 +0530</lastBuildDate><atom:link href="https://samad.uno/tags/blueteam/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 11 Feb 2025 11:56:46 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/blueteam/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Significance of Bash Scripting</title>
-        <link>https://samad.uno/p/significance-of-bash-scripting/</link>
+        <link>http://localhost:1313/p/significance-of-bash-scripting/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
         
-        <guid>https://samad.uno/p/significance-of-bash-scripting/</guid>
+        <guid>http://localhost:1313/p/significance-of-bash-scripting/</guid>
         <description>&lt;img src="https://images4.alphacoders.com/136/thumb-1920-1369036.png" alt="Featured image of post Significance of Bash Scripting" /&gt;&lt;h1 id=&#34;the-importance-of-bash-automation-in-a-soc&#34;&gt;The Importance of Bash Automation in a SOC
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p&gt;
@@ -89,10 +89,10 @@
         </item>
         <item>
         <title>Streamlining Incident Response and Threat Detection</title>
-        <link>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</link>
+        <link>http://localhost:1313/p/streamlining-incident-response-and-threat-detection/</link>
         <pubDate>Tue, 11 Feb 2025 07:22:52 +0530</pubDate>
         
-        <guid>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</guid>
+        <guid>http://localhost:1313/p/streamlining-incident-response-and-threat-detection/</guid>
         <description>&lt;img src="https://www.scrut.io/wp-content/uploads/2023/02/How-to-automate-Your-InfoSec-Program-with-Scrut-1.png" alt="Featured image of post Streamlining Incident Response and Threat Detection" /&gt;&lt;h1 id=&#34;soc-automation-streamlining-incident-response-and-threat-detection&#34;&gt;SOC Automation: Streamlining Incident Response and Threat Detection
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;With the ever-evolving cyber threat landscape, Security Operations Centers (SOCs) face increasing pressure to detect and respond to incidents swiftly. Manual processes, though effective, are often time-consuming and resource-intensive. SOC automation is transforming the way security teams handle threats by enhancing efficiency, reducing response times, and minimizing human error. In this blog, we will explore how SOC automation is streamlining incident response and threat detection, its benefits, and the key technologies driving this transformation.&lt;/p&gt;
@@ -137,10 +137,10 @@
         </item>
         <item>
         <title>Metasploit for SOC Analysts</title>
-        <link>https://samad.uno/p/metasploit-for-soc-analysts/</link>
+        <link>http://localhost:1313/p/metasploit-for-soc-analysts/</link>
         <pubDate>Tue, 11 Feb 2025 02:33:27 +0530</pubDate>
         
-        <guid>https://samad.uno/p/metasploit-for-soc-analysts/</guid>
+        <guid>http://localhost:1313/p/metasploit-for-soc-analysts/</guid>
         <description>&lt;img src="https://diesec.com/wp-content/uploads/2022/07/metasploit-diesec.jpg" alt="Featured image of post Metasploit for SOC Analysts" /&gt;&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;
@@ -231,10 +231,10 @@
         </item>
         <item>
         <title>The CIA Triad</title>
-        <link>https://samad.uno/p/the-cia-triad/</link>
+        <link>http://localhost:1313/p/the-cia-triad/</link>
         <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
         
-        <guid>https://samad.uno/p/the-cia-triad/</guid>
+        <guid>http://localhost:1313/p/the-cia-triad/</guid>
         <description>&lt;img src="https://19678933.fs1.hubspotusercontent-na1.net/hubfs/19678933/CIA-Triad-Alt.png" alt="Featured image of post The CIA Triad" /&gt;&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;
 &lt;p&gt;This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p&gt;
 &lt;p&gt;Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p&gt;
