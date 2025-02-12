@@ -5,11 +5,26 @@
     <loc>https://samad.uno/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
   </url><url>
+    <loc>https://samad.uno/tags/bash/</loc>
+    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/blueteam/</loc>
+    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+  </url><url>
     <loc>https://samad.uno/post/</loc>
+    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/scripting/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/p/significance-of-bash-scripting/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/</loc>
+    <lastmod>2025-02-11T11:56:46+05:30</lastmod>
+  </url><url>
+    <loc>https://samad.uno/tags/soc/</loc>
+    <lastmod>2025-02-11T07:22:52+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</loc>
     <lastmod>2025-02-11T07:22:52+05:30</lastmod>
@@ -23,11 +38,11 @@
     <loc>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</loc>
     <lastmod>2025-02-01T01:06:03+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/p/mr-robot-ctf/</loc>
+    <loc>https://samad.uno/tags/ctf/</loc>
     <lastmod>2024-11-29T12:10:58+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/p/about-me/</loc>
-    <lastmod>2024-11-25T01:45:48+05:30</lastmod>
+    <loc>https://samad.uno/p/mr-robot-ctf/</loc>
+    <lastmod>2024-11-29T12:10:58+05:30</lastmod>
   </url><url>
     <loc>https://samad.uno/p/initiation/</loc>
     <lastmod>2024-11-23T01:45:48+05:30</lastmod>
@@ -38,10 +53,10 @@
     <loc>https://samad.uno/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samad.uno/about/</loc>
+  </url><url>
     <loc>https://samad.uno/categories/</loc>
   </url><url>
     <loc>https://samad.uno/search/</loc>
-  </url><url>
-    <loc>https://samad.uno/tags/</loc>
   </url>
 </urlset>
