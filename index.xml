@@ -676,19 +676,7 @@ For that we have netcat.&lt;/p&gt;
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://samad.uno/about/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://nerdordie.com/wp-content/uploads/cache/thumbs_1920x0/1812696_cybernetik_panel_thumbnail.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;AboutMe&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h1 id=&#34;about-me&#34;&gt;About Me
-&lt;/h1&gt;&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;
-&lt;hr&gt;
+        <description>&lt;img src="https://samad.uno/img/open.png" alt="Featured image of post About" /&gt;&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;
 &lt;h2 id=&#34;education&#34;&gt;Education
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;
@@ -699,8 +687,7 @@ For that we have netcat.&lt;/p&gt;
 &lt;/h2&gt;&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fi/oca7kq3wk8qgy6giw0f5d/HTB-Academy-Student-Transcript.pdf?rlkey=3lybebitmx6dj4lcp0r1n1bow&amp;amp;st=w3pyaekt&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;HackTheBox Academy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;transcript.pdf&#34; &gt;HackTheBox Academy&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Infosec Foundations Path&lt;/li&gt;
 &lt;/ul&gt;
