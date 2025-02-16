@@ -2,16 +2,140 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Abdul Samad</title>
-        <link>https://samad.uno/post/</link>
+        <link>https://samad.uno/card-sub/post/</link>
         <description>Recent content in Posts on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 15 Feb 2025 09:48:08 +0000</lastBuildDate><atom:link href="https://samad.uno/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 16 Feb 2025 23:04:19 +0530</lastBuildDate><atom:link href="https://samad.uno/card-sub/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Understanding EDR</title>
+        <link>https://samad.uno/card-sub/p/understanding-edr/</link>
+        <pubDate>Sun, 16 Feb 2025 23:04:19 +0530</pubDate>
+        
+        <guid>https://samad.uno/card-sub/p/understanding-edr/</guid>
+        <description>&lt;img src="https://www.varonis.com/hubfs/Imported_Blog_Media/what-is-endpoint-security.png" alt="Featured image of post Understanding EDR" /&gt;&lt;h1 id=&#34;understanding-endpoint-detection-and-response-edr-a-deep-dive&#34;&gt;Understanding Endpoint Detection and Response (EDR): A Deep Dive
+&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.&lt;/p&gt;
+&lt;p&gt;This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-edr-architecture-and-components&#34;&gt;1. EDR Architecture and Components
+&lt;/h2&gt;&lt;p&gt;An EDR system consists of several critical components:&lt;/p&gt;
+&lt;h3 id=&#34;a-data-collection&#34;&gt;a) Data Collection
+&lt;/h3&gt;&lt;p&gt;EDR solutions collect a wide range of telemetry data from endpoints, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Process execution logs&lt;/li&gt;
+&lt;li&gt;File system modifications&lt;/li&gt;
+&lt;li&gt;Registry changes&lt;/li&gt;
+&lt;li&gt;Network connections&lt;/li&gt;
+&lt;li&gt;Memory dumps&lt;/li&gt;
+&lt;li&gt;API calls&lt;/li&gt;
+&lt;li&gt;User activity logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;b-data-storage-and-normalization&#34;&gt;b) Data Storage and Normalization
+&lt;/h3&gt;&lt;p&gt;Collected data is stored in a centralized repository where it undergoes normalization and correlation. Security Information and Event Management (SIEM) and Extended Detection and Response (XDR) platforms often integrate with EDR solutions to enhance analytics.&lt;/p&gt;
+&lt;h3 id=&#34;c-behavioral-analytics-and-detection-engine&#34;&gt;c) Behavioral Analytics and Detection Engine
+&lt;/h3&gt;&lt;p&gt;The core of EDR is its detection engine, which applies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Signature-based detection:&lt;/strong&gt; Hash-based identification (SHA256, MD5) for known threats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heuristic analysis:&lt;/strong&gt; Identifies suspicious patterns based on predefined rules.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behavioral detection:&lt;/strong&gt; Machine learning (ML) and AI-driven anomaly detection.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Threat intelligence feeds:&lt;/strong&gt; Integration with MITRE ATT&amp;amp;CK, VirusTotal, and other sources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;d-incident-investigation-and-threat-hunting&#34;&gt;d) Incident Investigation and Threat Hunting
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Automated response mechanisms:&lt;/strong&gt; EDR tools trigger alerts and automate remediation actions such as process termination, quarantine, and forensic data collection.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Threat hunting dashboards:&lt;/strong&gt; Analysts manually investigate suspicious behavior using indicators of compromise (IoCs) and tactics, techniques, and procedures (TTPs).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-edr-detection-methodologies&#34;&gt;2. EDR Detection Methodologies
+&lt;/h2&gt;&lt;p&gt;Modern EDR solutions rely on a combination of detection techniques to identify and mitigate threats:&lt;/p&gt;
+&lt;h3 id=&#34;a-process-behavior-monitoring&#34;&gt;a) Process Behavior Monitoring
+&lt;/h3&gt;&lt;p&gt;EDR continuously monitors process behavior to detect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Suspicious parent-child relationships (e.g., &lt;code&gt;winword.exe&lt;/code&gt; spawning &lt;code&gt;cmd.exe&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Code injection techniques (e.g., DLL injection, process hollowing)&lt;/li&gt;
+&lt;li&gt;Unusual API calls (e.g., &lt;code&gt;VirtualAlloc&lt;/code&gt;, &lt;code&gt;WriteProcessMemory&lt;/code&gt;, &lt;code&gt;CreateRemoteThread&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;b-memory-analysis&#34;&gt;b) Memory Analysis
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Detects in-memory threats using YARA rules.&lt;/li&gt;
+&lt;li&gt;Identifies fileless malware executing from PowerShell or WMI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;c-network-traffic-analysis&#34;&gt;c) Network Traffic Analysis
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Detects C2 (command and control) traffic.&lt;/li&gt;
+&lt;li&gt;Identifies DNS tunneling, domain generation algorithms (DGAs), and encrypted traffic anomalies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;d-kernel-level-monitoring&#34;&gt;d) Kernel-Level Monitoring
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Hooks into kernel-mode drivers to monitor system calls and driver activities.&lt;/li&gt;
+&lt;li&gt;Detects rootkits and privilege escalation attempts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-evasion-techniques-used-by-attackers&#34;&gt;3. Evasion Techniques Used by Attackers
+&lt;/h2&gt;&lt;p&gt;Adversaries constantly develop techniques to bypass EDR solutions. Some common evasion methods include:&lt;/p&gt;
+&lt;h3 id=&#34;a-process-injection-techniques&#34;&gt;a) Process Injection Techniques
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Process Hollowing:&lt;/strong&gt; Replaces a legitimate process memory with malicious code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflective DLL Injection:&lt;/strong&gt; Loads a DLL directly into process memory without touching disk.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Atom Bombing:&lt;/strong&gt; Uses Windows atom tables to inject shellcode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;b-api-unhooking&#34;&gt;b) API Unhooking
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Attackers remove or replace EDR hooks on Windows APIs (e.g., &lt;code&gt;NtCreateProcess&lt;/code&gt;, &lt;code&gt;NtOpenFile&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Techniques include direct system calls and syscalls obfuscation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;c-user-mode-hooking-bypass&#34;&gt;c) User Mode Hooking Bypass
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inline hooking removal:&lt;/strong&gt; Restores original function bytes using direct memory patching.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syscall obfuscation:&lt;/strong&gt; Avoids API hooks by directly invoking syscalls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;d-code-execution-techniques&#34;&gt;d) Code Execution Techniques
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Living-off-the-land binaries (LOLBins):&lt;/strong&gt; Uses trusted Windows binaries (e.g., &lt;code&gt;rundll32.exe&lt;/code&gt;, &lt;code&gt;mshta.exe&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory patching:&lt;/strong&gt; Modifies security tools to disable logging.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indirect Syscalls:&lt;/strong&gt; Bypasses user-mode hooks by calling syscalls through intermediate execution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;e-encrypted-payloads-and-c2-obfuscation&#34;&gt;e) Encrypted Payloads and C2 Obfuscation
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Payload encryption:&lt;/strong&gt; Uses AES, XOR, or base64 encoding to evade signature detection.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Domain fronting:&lt;/strong&gt; Hides malicious C2 traffic within legitimate services like &lt;code&gt;Cloudflare&lt;/code&gt; or &lt;code&gt;Google&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-countermeasures-and-advanced-defenses&#34;&gt;4. Countermeasures and Advanced Defenses
+&lt;/h2&gt;&lt;p&gt;EDR solutions continuously evolve to counter evasion techniques. Some advanced defenses include:&lt;/p&gt;
+&lt;h3 id=&#34;a-kernel-based-monitoring&#34;&gt;a) Kernel-Based Monitoring
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;EDR drivers operate at kernel level&lt;/strong&gt; to detect and block process injection and API hooking attempts.&lt;/li&gt;
+&lt;li&gt;Monitors syscalls directly to detect unhooking attempts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;b-hardware-based-security&#34;&gt;b) Hardware-Based Security
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Virtualization-based security (VBS):&lt;/strong&gt; Protects EDR processes using Hyper-V.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intel CET (Control-flow Enforcement Technology):&lt;/strong&gt; Prevents return-oriented programming (ROP) attacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;c-ai-and-ml-based-threat-detection&#34;&gt;c) AI and ML-Based Threat Detection
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Behavioral anomaly detection:&lt;/strong&gt; Identifies deviations from normal endpoint activity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory forensics integration:&lt;/strong&gt; Uses volatility plugins to detect in-memory threats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;d-threat-hunting-best-practices&#34;&gt;d) Threat Hunting Best Practices
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Regularly analyze &lt;strong&gt;process creation logs&lt;/strong&gt;, &lt;strong&gt;PowerShell execution logs&lt;/strong&gt;, and &lt;strong&gt;network traffic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Look for abnormal parent-child process relationships.&lt;/li&gt;
+&lt;li&gt;Use YARA rules to detect in-memory malware.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;EDR has become a critical component in modern security operations, offering deep visibility into endpoint activity and sophisticated threat detection. However, attackers continue to refine their evasion techniques, necessitating continuous improvement in EDR strategies. Organizations should leverage kernel-based monitoring, AI-driven anomaly detection, and proactive threat hunting to enhance their security posture against advanced threats.&lt;/p&gt;
+&lt;p&gt;By understanding the inner workings of EDR, security professionals can develop stronger defenses, stay ahead of adversaries, and ensure comprehensive endpoint protection in an ever-evolving threat landscape.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>IAM in Cloud Security</title>
-        <link>https://samad.uno/p/iam-in-cloud-security/</link>
+        <link>https://samad.uno/card-sub/p/iam-in-cloud-security/</link>
         <pubDate>Sat, 15 Feb 2025 09:48:08 +0000</pubDate>
         
-        <guid>https://samad.uno/p/iam-in-cloud-security/</guid>
+        <guid>https://samad.uno/card-sub/p/iam-in-cloud-security/</guid>
         <description>&lt;img src="https://tamnoon.io/wp-content/uploads/IAM_Thumbnails_Web.png" alt="Featured image of post IAM in Cloud Security" /&gt;&lt;h1 id=&#34;the-role-of-identity-and-access-management-iam-in-cloud-security&#34;&gt;The Role of Identity and Access Management (IAM) in Cloud Security
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;As organizations migrate to the cloud, security concerns become paramount. One of the most critical components of cloud security is &lt;strong&gt;Identity and Access Management (IAM)&lt;/strong&gt;. IAM ensures that only authorized users and services can access specific cloud resources, enforcing security policies while maintaining compliance. This blog post delves into IAM&amp;rsquo;s role in cloud security, its core components, best practices, and how different cloud service providers implement IAM.&lt;/p&gt;
@@ -106,10 +230,10 @@
         </item>
         <item>
         <title>Zero Trust Security</title>
-        <link>https://samad.uno/p/zero-trust-security/</link>
+        <link>https://samad.uno/card-sub/p/zero-trust-security/</link>
         <pubDate>Fri, 14 Feb 2025 23:46:45 +0000</pubDate>
         
-        <guid>https://samad.uno/p/zero-trust-security/</guid>
+        <guid>https://samad.uno/card-sub/p/zero-trust-security/</guid>
         <description>&lt;img src="https://www.bleepstatic.com/content/posts/2021/02/26/ZeroTrustSecurity2.jpg" alt="Featured image of post Zero Trust Security" /&gt;&lt;h1 id=&#34;what-is-zero-trust-security-and-why-you-should-adopt-it&#34;&gt;What is Zero Trust Security and Why You Should Adopt It
 &lt;/h1&gt;&lt;h2 id=&#34;understanding-zero-trust-security&#34;&gt;Understanding Zero Trust Security
 &lt;/h2&gt;&lt;p&gt;Zero Trust Security is a cybersecurity model that operates on the principle of &amp;ldquo;never trust, always verify.&amp;rdquo; Unlike traditional security models that assume entities inside a network are trustworthy, Zero Trust requires continuous authentication and authorization of every user, device, and system attempting to access resources. It minimizes risk by enforcing strict identity verification and limiting access to only what is necessary.&lt;/p&gt;
@@ -146,10 +270,10 @@
         </item>
         <item>
         <title>Dealing with DDoS Attacks</title>
-        <link>https://samad.uno/p/dealing-with-ddos-attacks/</link>
+        <link>https://samad.uno/card-sub/p/dealing-with-ddos-attacks/</link>
         <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
         
-        <guid>https://samad.uno/p/dealing-with-ddos-attacks/</guid>
+        <guid>https://samad.uno/card-sub/p/dealing-with-ddos-attacks/</guid>
         <description>&lt;img src="https://tresorit.com/blog/content/images/size/w2000/2022/02/blog_ddos_v2@2x.png" alt="Featured image of post Dealing with DDoS Attacks" /&gt;&lt;h1 id=&#34;dealing-with-ddos-attacks-blue-team-strategies&#34;&gt;Dealing with DDoS Attacks: Blue Team Strategies
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;Distributed Denial-of-Service (DDoS) attacks are a persistent and growing threat to organizations worldwide. These attacks aim to overwhelm a target system, network, or service with excessive traffic, rendering it unavailable to legitimate users. As a blue team member, your role is to detect, mitigate, and prevent these attacks effectively. This blog will explore strategies to defend against DDoS attacks using proactive measures, real-time response tactics, and long-term security best practices.&lt;/p&gt;
@@ -194,10 +318,10 @@
         </item>
         <item>
         <title>Significance of Bash Scripting</title>
-        <link>https://samad.uno/p/significance-of-bash-scripting/</link>
+        <link>https://samad.uno/card-sub/p/significance-of-bash-scripting/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
         
-        <guid>https://samad.uno/p/significance-of-bash-scripting/</guid>
+        <guid>https://samad.uno/card-sub/p/significance-of-bash-scripting/</guid>
         <description>&lt;img src="https://images4.alphacoders.com/136/thumb-1920-1369036.png" alt="Featured image of post Significance of Bash Scripting" /&gt;&lt;h1 id=&#34;the-importance-of-bash-automation-in-a-soc&#34;&gt;The Importance of Bash Automation in a SOC
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p&gt;
@@ -275,10 +399,10 @@
         </item>
         <item>
         <title>Streamlining Incident Response and Threat Detection</title>
-        <link>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</link>
+        <link>https://samad.uno/card-sub/p/streamlining-incident-response-and-threat-detection/</link>
         <pubDate>Tue, 11 Feb 2025 07:22:52 +0530</pubDate>
         
-        <guid>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</guid>
+        <guid>https://samad.uno/card-sub/p/streamlining-incident-response-and-threat-detection/</guid>
         <description>&lt;img src="https://www.scrut.io/wp-content/uploads/2023/02/How-to-automate-Your-InfoSec-Program-with-Scrut-1.png" alt="Featured image of post Streamlining Incident Response and Threat Detection" /&gt;&lt;h1 id=&#34;soc-automation-streamlining-incident-response-and-threat-detection&#34;&gt;SOC Automation: Streamlining Incident Response and Threat Detection
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;With the ever-evolving cyber threat landscape, Security Operations Centers (SOCs) face increasing pressure to detect and respond to incidents swiftly. Manual processes, though effective, are often time-consuming and resource-intensive. SOC automation is transforming the way security teams handle threats by enhancing efficiency, reducing response times, and minimizing human error. In this blog, we will explore how SOC automation is streamlining incident response and threat detection, its benefits, and the key technologies driving this transformation.&lt;/p&gt;
@@ -323,10 +447,10 @@
         </item>
         <item>
         <title>Metasploit for SOC Analysts</title>
-        <link>https://samad.uno/p/metasploit-for-soc-analysts/</link>
+        <link>https://samad.uno/card-sub/p/metasploit-for-soc-analysts/</link>
         <pubDate>Tue, 11 Feb 2025 02:33:27 +0530</pubDate>
         
-        <guid>https://samad.uno/p/metasploit-for-soc-analysts/</guid>
+        <guid>https://samad.uno/card-sub/p/metasploit-for-soc-analysts/</guid>
         <description>&lt;img src="https://diesec.com/wp-content/uploads/2022/07/metasploit-diesec.jpg" alt="Featured image of post Metasploit for SOC Analysts" /&gt;&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;
@@ -417,10 +541,10 @@
         </item>
         <item>
         <title>The CIA Triad</title>
-        <link>https://samad.uno/p/the-cia-triad/</link>
+        <link>https://samad.uno/card-sub/p/the-cia-triad/</link>
         <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
         
-        <guid>https://samad.uno/p/the-cia-triad/</guid>
+        <guid>https://samad.uno/card-sub/p/the-cia-triad/</guid>
         <description>&lt;img src="https://19678933.fs1.hubspotusercontent-na1.net/hubfs/19678933/CIA-Triad-Alt.png" alt="Featured image of post The CIA Triad" /&gt;&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;
 &lt;p&gt;This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p&gt;
 &lt;p&gt;Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p&gt;
@@ -485,10 +609,10 @@
         </item>
         <item>
         <title>Deep Dive into Vulnerability Assessment</title>
-        <link>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</link>
+        <link>https://samad.uno/card-sub/p/deep-dive-into-vulnerability-assessment/</link>
         <pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate>
         
-        <guid>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</guid>
+        <guid>https://samad.uno/card-sub/p/deep-dive-into-vulnerability-assessment/</guid>
         <description>&lt;img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/609a35eb958d5a46f3f246e5_scanning%20vulnerability.png" alt="Featured image of post Deep Dive into Vulnerability Assessment" /&gt;&lt;h1 id=&#34;a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices&#34;&gt;A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.&lt;/p&gt;
@@ -585,10 +709,10 @@
         </item>
         <item>
         <title>Mr Robot CTF</title>
-        <link>https://samad.uno/p/mr-robot-ctf/</link>
+        <link>https://samad.uno/card-sub/p/mr-robot-ctf/</link>
         <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
         
-        <guid>https://samad.uno/p/mr-robot-ctf/</guid>
+        <guid>https://samad.uno/card-sub/p/mr-robot-ctf/</guid>
         <description>&lt;img src="https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg" alt="Featured image of post Mr Robot CTF" /&gt;&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
 &lt;h3 id=&#34;enumeration&#34;&gt;Enumeration
 &lt;/h3&gt;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan
@@ -650,7 +774,7 @@
 &lt;p&gt;We also found the &lt;code&gt;/fsocity.dic&lt;/code&gt; endpoint which has a wordlist which might come in handy later.&lt;/p&gt;
 &lt;h4 id=&#34;directory-busting&#34;&gt;Directory Busting
 &lt;/h4&gt;&lt;p&gt;Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/dirb.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/dirb.png&#34;
 	
 	
 	
@@ -664,7 +788,7 @@
 &lt;code&gt;/license&lt;/code&gt;
 &lt;code&gt;/login&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Visiting the &lt;code&gt;/license&lt;/code&gt; endpoint we get:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/license.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/license.png&#34;
 	
 	
 	
@@ -675,7 +799,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Scrolling further down we are greeted with a base64 string which screams &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/string.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/string.png&#34;
 	
 	
 	
@@ -689,7 +813,7 @@
 User: &lt;code&gt;Elliot&lt;/code&gt;
 Password: &lt;code&gt;ER28-0652&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Now equipped with user and password we move on to the &lt;code&gt;/login&lt;/code&gt; endpoint.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/login.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/login.png&#34;
 	
 	
 	
@@ -700,7 +824,7 @@ Password: &lt;code&gt;ER28-0652&lt;/code&gt;&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;We login with the credentials we have and we get a wordpress dashboard.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/dash.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/dash.png&#34;
 	
 	
 	
@@ -712,7 +836,7 @@ Password: &lt;code&gt;ER28-0652&lt;/code&gt;&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;exploitation&#34;&gt;Exploitation
 &lt;/h3&gt;&lt;p&gt;Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/404.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/404.png&#34;
 	
 	
 	
@@ -734,7 +858,7 @@ For that we have netcat.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Using rlwrap is not necessary but it&amp;rsquo;s the quality of life stuff. Now we have our listener up and running.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/nc.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/nc.png&#34;
 	
 	
 	
@@ -746,7 +870,7 @@ For that we have netcat.&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;Executing our reverse shell by visiting the URL: &lt;code&gt;http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;We get a shell.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/shell.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/shell.png&#34;
 	
 	
 	
@@ -768,7 +892,7 @@ For that we have netcat.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;And we have an interactive shell&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/key2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/key2.png&#34;
 	
 	
 	
@@ -783,10 +907,10 @@ For that we have netcat.&lt;/p&gt;
         </item>
         <item>
         <title>Initiation</title>
-        <link>https://samad.uno/p/initiation/</link>
+        <link>https://samad.uno/card-sub/p/initiation/</link>
         <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
         
-        <guid>https://samad.uno/p/initiation/</guid>
+        <guid>https://samad.uno/card-sub/p/initiation/</guid>
         <description>&lt;img src="https://i.ytimg.com/vi/N3G17jMEMzE/maxresdefault.jpg" alt="Featured image of post Initiation" /&gt;&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
 &lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect
 &lt;/h3&gt;&lt;p&gt;On this site, you can find:&lt;/p&gt;

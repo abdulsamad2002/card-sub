@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Ctf on Abdul Samad</title>
-        <link>https://samad.uno/tags/ctf/</link>
+        <link>https://samad.uno/card-sub/tags/ctf/</link>
         <description>Recent content in Ctf on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate><atom:link href="https://samad.uno/tags/ctf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate><atom:link href="https://samad.uno/card-sub/tags/ctf/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Mr Robot CTF</title>
-        <link>https://samad.uno/p/mr-robot-ctf/</link>
+        <link>https://samad.uno/card-sub/p/mr-robot-ctf/</link>
         <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
         
-        <guid>https://samad.uno/p/mr-robot-ctf/</guid>
+        <guid>https://samad.uno/card-sub/p/mr-robot-ctf/</guid>
         <description>&lt;img src="https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg" alt="Featured image of post Mr Robot CTF" /&gt;&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
 &lt;h3 id=&#34;enumeration&#34;&gt;Enumeration
 &lt;/h3&gt;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan
@@ -73,7 +73,7 @@
 &lt;p&gt;We also found the &lt;code&gt;/fsocity.dic&lt;/code&gt; endpoint which has a wordlist which might come in handy later.&lt;/p&gt;
 &lt;h4 id=&#34;directory-busting&#34;&gt;Directory Busting
 &lt;/h4&gt;&lt;p&gt;Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/dirb.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/dirb.png&#34;
 	
 	
 	
@@ -87,7 +87,7 @@
 &lt;code&gt;/license&lt;/code&gt;
 &lt;code&gt;/login&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Visiting the &lt;code&gt;/license&lt;/code&gt; endpoint we get:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/license.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/license.png&#34;
 	
 	
 	
@@ -98,7 +98,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Scrolling further down we are greeted with a base64 string which screams &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/string.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/string.png&#34;
 	
 	
 	
@@ -112,7 +112,7 @@
 User: &lt;code&gt;Elliot&lt;/code&gt;
 Password: &lt;code&gt;ER28-0652&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Now equipped with user and password we move on to the &lt;code&gt;/login&lt;/code&gt; endpoint.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/login.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/login.png&#34;
 	
 	
 	
@@ -123,7 +123,7 @@ Password: &lt;code&gt;ER28-0652&lt;/code&gt;&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;We login with the credentials we have and we get a wordpress dashboard.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/dash.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/dash.png&#34;
 	
 	
 	
@@ -135,7 +135,7 @@ Password: &lt;code&gt;ER28-0652&lt;/code&gt;&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;exploitation&#34;&gt;Exploitation
 &lt;/h3&gt;&lt;p&gt;Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/404.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/404.png&#34;
 	
 	
 	
@@ -157,7 +157,7 @@ For that we have netcat.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Using rlwrap is not necessary but it&amp;rsquo;s the quality of life stuff. Now we have our listener up and running.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/nc.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/nc.png&#34;
 	
 	
 	
@@ -169,7 +169,7 @@ For that we have netcat.&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;Executing our reverse shell by visiting the URL: &lt;code&gt;http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;We get a shell.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/shell.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/shell.png&#34;
 	
 	
 	
@@ -191,7 +191,7 @@ For that we have netcat.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;And we have an interactive shell&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://samad.uno/key2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://samad.uno/card-sub/card-sub/key2.png&#34;
 	
 	
 	

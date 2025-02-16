@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Abdul Samad</title>
-        <link>https://samad.uno/tags/</link>
+        <link>https://samad.uno/card-sub/tags/</link>
         <description>Recent content in Tags on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 13 Feb 2025 03:04:27 +0530</lastBuildDate><atom:link href="https://samad.uno/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 13 Feb 2025 03:04:27 +0530</lastBuildDate><atom:link href="https://samad.uno/card-sub/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Blueteam</title>
-        <link>https://samad.uno/tags/blueteam/</link>
+        <link>https://samad.uno/card-sub/tags/blueteam/</link>
         <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
         
-        <guid>https://samad.uno/tags/blueteam/</guid>
+        <guid>https://samad.uno/card-sub/tags/blueteam/</guid>
         <description></description>
         </item>
         <item>
         <title>Infosec</title>
-        <link>https://samad.uno/tags/infosec/</link>
+        <link>https://samad.uno/card-sub/tags/infosec/</link>
         <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
         
-        <guid>https://samad.uno/tags/infosec/</guid>
+        <guid>https://samad.uno/card-sub/tags/infosec/</guid>
         <description></description>
         </item>
         <item>
         <title>Soc</title>
-        <link>https://samad.uno/tags/soc/</link>
+        <link>https://samad.uno/card-sub/tags/soc/</link>
         <pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate>
         
-        <guid>https://samad.uno/tags/soc/</guid>
+        <guid>https://samad.uno/card-sub/tags/soc/</guid>
         <description></description>
         </item>
         <item>
         <title>Bash</title>
-        <link>https://samad.uno/tags/bash/</link>
+        <link>https://samad.uno/card-sub/tags/bash/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
         
-        <guid>https://samad.uno/tags/bash/</guid>
+        <guid>https://samad.uno/card-sub/tags/bash/</guid>
         <description></description>
         </item>
         <item>
         <title>Scripting</title>
-        <link>https://samad.uno/tags/scripting/</link>
+        <link>https://samad.uno/card-sub/tags/scripting/</link>
         <pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate>
         
-        <guid>https://samad.uno/tags/scripting/</guid>
+        <guid>https://samad.uno/card-sub/tags/scripting/</guid>
         <description></description>
         </item>
         <item>
         <title>Ctf</title>
-        <link>https://samad.uno/tags/ctf/</link>
+        <link>https://samad.uno/card-sub/tags/ctf/</link>
         <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
         
-        <guid>https://samad.uno/tags/ctf/</guid>
+        <guid>https://samad.uno/card-sub/tags/ctf/</guid>
         <description></description>
         </item>
         
