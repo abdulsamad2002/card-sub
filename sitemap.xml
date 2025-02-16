@@ -2,76 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://samad.uno/card-sub/</loc>
+    <loc>https://card.samad.uno/</loc>
     <lastmod>2025-02-16T23:04:19+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/post/</loc>
+    <loc>https://card.samad.uno/post/</loc>
     <lastmod>2025-02-16T23:04:19+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/understanding-edr/</loc>
-    <lastmod>2025-02-16T23:04:19+05:30</lastmod>
-  </url><url>
-    <loc>https://samad.uno/card-sub/p/iam-in-cloud-security/</loc>
+    <loc>https://card.samad.uno/p/iam-in-cloud-security/</loc>
     <lastmod>2025-02-15T09:48:08+00:00</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/zero-trust-security/</loc>
+    <loc>https://card.samad.uno/p/zero-trust-security/</loc>
     <lastmod>2025-02-14T23:46:45+00:00</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/blueteam/</loc>
+    <loc>https://card.samad.uno/tags/blueteam/</loc>
     <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/dealing-with-ddos-attacks/</loc>
+    <loc>https://card.samad.uno/p/dealing-with-ddos-attacks/</loc>
     <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/infosec/</loc>
+    <loc>https://card.samad.uno/tags/infosec/</loc>
     <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/soc/</loc>
+    <loc>https://card.samad.uno/tags/soc/</loc>
     <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/</loc>
+    <loc>https://card.samad.uno/tags/</loc>
     <lastmod>2025-02-13T03:04:27+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/bash/</loc>
+    <loc>https://card.samad.uno/tags/bash/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/scripting/</loc>
+    <loc>https://card.samad.uno/tags/scripting/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/significance-of-bash-scripting/</loc>
+    <loc>https://card.samad.uno/p/significance-of-bash-scripting/</loc>
     <lastmod>2025-02-11T11:56:46+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/streamlining-incident-response-and-threat-detection/</loc>
+    <loc>https://card.samad.uno/p/streamlining-incident-response-and-threat-detection/</loc>
     <lastmod>2025-02-11T07:22:52+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/metasploit-for-soc-analysts/</loc>
+    <loc>https://card.samad.uno/p/metasploit-for-soc-analysts/</loc>
     <lastmod>2025-02-11T02:33:27+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/the-cia-triad/</loc>
+    <loc>https://card.samad.uno/p/the-cia-triad/</loc>
     <lastmod>2025-02-09T00:55:47+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/deep-dive-into-vulnerability-assessment/</loc>
+    <loc>https://card.samad.uno/p/deep-dive-into-vulnerability-assessment/</loc>
     <lastmod>2025-02-01T01:06:03+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/tags/ctf/</loc>
+    <loc>https://card.samad.uno/tags/ctf/</loc>
     <lastmod>2024-11-29T12:10:58+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/mr-robot-ctf/</loc>
+    <loc>https://card.samad.uno/p/mr-robot-ctf/</loc>
     <lastmod>2024-11-29T12:10:58+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/p/initiation/</loc>
+    <loc>https://card.samad.uno/p/initiation/</loc>
     <lastmod>2024-11-23T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/archives/</loc>
+    <loc>https://card.samad.uno/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/page/</loc>
+    <loc>https://card.samad.uno/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samad.uno/card-sub/about/</loc>
+    <loc>https://card.samad.uno/about/</loc>
   </url><url>
-    <loc>https://samad.uno/card-sub/categories/</loc>
+    <loc>https://card.samad.uno/categories/</loc>
   </url><url>
-    <loc>https://samad.uno/card-sub/search/</loc>
+    <loc>https://card.samad.uno/search/</loc>
   </url>
 </urlset>
