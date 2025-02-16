@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Abdul Samad</title>
+        <link>https://samad.uno/page/</link>
+        <description>Recent content in Pages on Abdul Samad</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://samad.uno/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>https://samad.uno/archives/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://samad.uno/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://samad.uno/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://samad.uno/about/</guid>
+        <description>&lt;img src="https://samad.uno/img/open.png" alt="Featured image of post About" /&gt;&lt;p&gt;I’m Abdul Samad, a Computer Science &amp;amp; Engineering student currently in my third year of college. Alongside my coursework, I’m actively learning about cybersecurity with a focus on blue team operations. Here, I’ll be sharing my projects and blogs on cybersecurity topics.&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;
+&lt;li&gt;Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;online-cybersecurity-training&#34;&gt;Online Cybersecurity Training
+&lt;/h2&gt;&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;transcript.pdf&#34; &gt;HackTheBox Academy&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Infosec Foundations Path&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tryhackme.com/p/samad1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TryHackMe&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jr. Penetration Tester Path&lt;/li&gt;
+&lt;li&gt;CompTIA Pentest+ Path&lt;/li&gt;
+&lt;li&gt;Web Fundamentals Path&lt;/li&gt;
+&lt;li&gt;PreSecurity Path&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1854455&#34; style=&#34;border:none; width:350px; height: 90px;&#34;&gt;&lt;/iframe&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://samad.uno/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://samad.uno/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
